@@ -9,7 +9,10 @@ class operators:
         return input1 / input2  
     def multiply(self, input1, input2): 
         return input1 * input2
-
+    def squareroot(self, input1 ):
+        return math.sqrt(input1)
+    def square(self, input1):
+        return input1 * input1
 
 
 def main():
