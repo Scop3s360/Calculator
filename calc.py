@@ -106,12 +106,8 @@ def main():
                         result = calc.multiply(input1, input2)
                     elif selected_operator == "divide":
                         result = calc.divide(input1, input2)
-                    elif selected_operator == "squareroot":
-                        result = calc.squareroot(input1)
                     elif selected_operator == "percen":
                         result = calc.percen(input1, input2)
-                    elif selected_operator == "square":
-                        result = calc.square(input1)
                     
                     print(f"Result: {result}")
 
