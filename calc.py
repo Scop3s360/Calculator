@@ -13,7 +13,8 @@ class operators:
         return math.sqrt(input1)
     def square(self, input1):
         return input1 * input1
-
+    def percen(self, input1, input2):
+        return ((input1 / 100) * input2)
 
 def main():
 
